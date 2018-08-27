@@ -1,0 +1,12 @@
+# App artifacts
+/_build
+/db
+/deps
+/*.ez
+/.deliver/releases/
+erl_crash.dump
+npm-debug.log
+/assets/node_modules
+/priv/static/
+/config/*.secret.exs
+*.solution.json
