@@ -1,5 +1,4 @@
 defmodule RNATranscription do
-  import IEx
   @doc """
   Transcribes a character list representing DNA nucleotides to RNA
 
@@ -15,7 +14,7 @@ defmodule RNATranscription do
     |> Enum.concat
   end
 
-  def rna_from_char(dna) do
+  def rna_from_dna(dna) do
     case dna do
     ?G -> 'C'
     ?C -> 'G'
